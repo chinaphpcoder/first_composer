@@ -1,0 +1,19 @@
+{
+    "name": "chinaphpcoder/first_composer",
+    "description": "first composer",
+    "type": "library",
+    "authors": [
+        {
+            "name": "xu shuai",
+            "email": "chinaphpcoder@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ChinaPhpCoder\\": "src/"
+        }
+    }
+}
